@@ -1,9 +1,14 @@
 import React from 'react';
+import ButtonSkeleton from '../components/ButtonSkeleton';
 
 const Home: React.FC = function () {
   return (
     <div>
-      <p>Home</p>
+      <ButtonSkeleton />
+      <ButtonSkeleton />
+      <ButtonSkeleton />
+      <ButtonSkeleton />
+      <ButtonSkeleton />
     </div>
   );
 };
